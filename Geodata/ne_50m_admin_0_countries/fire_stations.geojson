@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "fire_stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Portishead Fire Station", "Address": "Station Road, Portishead", "Postcode": "BS20 7BZ", "Telephone No.": "01275 845469", "Fax No.": "01275 845469", "Latitude": 51.486325, "Longitude": -2.768097 }, "geometry": { "type": "Point", "coordinates": [ -2.768097, 51.486325 ] } },
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Pill Fire Station", "Address": "Westward Drive, Pill", "Postcode": "BS20 0JS", "Telephone No.": "01275 372476", "Fax No.": "01275 372476", "Latitude": 51.477479, "Longitude": -2.683925 }, "geometry": { "type": "Point", "coordinates": [ -2.683925, 51.477479 ] } },
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Nailsea Fire Station", "Address": "Pound Lane, Nailsea", "Postcode": "BS48 2NN", "Telephone No.": "01275 856707", "Fax No.": "01275 856707", "Latitude": 51.437931, "Longitude": -2.766993 }, "geometry": { "type": "Point", "coordinates": [ -2.766993, 51.437931 ] } },
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Clevedon Fire Station", "Address": "34 Old Street, Clevedon", "Postcode": "BS21 6BY", "Telephone No.": "01275 340114", "Fax No.": "01275 340114", "Latitude": 51.437027, "Longitude": -2.849888 }, "geometry": { "type": "Point", "coordinates": [ -2.849888, 51.437027 ] } },
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Weston-super-Mare Fire Station", "Address": "Milton Avenue, W-s-M", "Postcode": "BS23 3JS", "Telephone No.": "HQ Ext.8180", "Fax No.": "01934 612672", "Latitude": 51.349463, "Longitude": -2.961634 }, "geometry": { "type": "Point", "coordinates": [ -2.961634, 51.349463 ] } },
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Yatton Fire Station", "Address": "17 Rock Road, Yatton", "Postcode": "BS49 4JE", "Telephone No.": "01934 832821", "Fax No.": "01934 832821", "Latitude": 51.38354, "Longitude": -2.814572 }, "geometry": { "type": "Point", "coordinates": [ -2.814572, 51.38354 ] } },
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Blagdon Fire Station", "Address": "Station Road, Blagdon", "Postcode": "BS40 7RL", "Telephone No.": "01761 463193", "Fax No.": "01761 463193", "Latitude": 51.328973, "Longitude": -2.717526 }, "geometry": { "type": "Point", "coordinates": [ -2.717526, 51.328973 ] } },
+{ "type": "Feature", "properties": { "Publisher Label": "North Somerset Council", "Building Name": "Winscombe Fire Station", "Address": "Sandford Road, Winscombe", "Postcode": "BS25 1JA", "Telephone No.": "01934 842197", "Fax No.": "01934 842197", "Latitude": 51.317084, "Longitude": -2.833665 }, "geometry": { "type": "Point", "coordinates": [ -2.833665, 51.317084 ] } }
+]
+}
