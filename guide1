@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<title>Hosting a webmap on Github</title>
+<head>
+<meta charset="utf-8">
+    </head>
+    <body>
+        
+<h1>
+<li>QGIS to Leaflet to Github Pages page
+</h1>
+
+<p>
+<ol type=”1”>
+<li>Qgis
+<ol type=”a”>
+<li>Get all your data displayed how you want it
+<ol type=”i”>
+<li>Note: everything might have to be geoJSONs, but not sure
+</ol>
+<li>Add the plugin “QGIS2Web” to your QGIS
+<li>In the plugin menu select make a map
+<li>Fiddle around with the options
+<li>Press export
+<li>The folder structure and web page will appear in whatever folder you selected in the options in the plugin
+</ol>
+<ol type=”1” start=”2”>
+<li>Github Pages
+<ol type=”a”>
+<li>Go to https://pages.github.com/
+<li>Follow the instructions to create a “Repository” (the bit of Github where you are going to host your page with the map on it), on Github online
+<li>Download Github Desktop
+<li>Open your new repository in Github Desktop by clicking the button that says “Setup in desktop”
+</ol>
+<ol type=”1” start=”3”>
+<li>Your PC or Mac’s file explorer
+<ol type=”a”>
+<li>Copy the complete folder structure and HTML file for the webmap into the local folder that holds the repository for the Github page
+</ol>
+<ol type=”1” start=”4”>
+<li>Github Desktop
+<ol type=”a”>
+<li>Github Desktop should detect that you’ve made changes to the repository
+<li>Bottom left click “Commit”
+<li>It’ll do some thinking, then take you to another page in the app that has a button that says “Push”, click that and wait till it does its stuff
+<ol type=”1” start=”5”>
+<li>Access webmap online
+<ol type=”a”>
+<li>In a browser go to https://WHATEVER-YOUR-GITHUB-ACCOUNT-NAME-IS.github.io/THE-FILENAME-OF-THE-HTML-PAGE-YOU-EXPORTED-FROM-QGIS.html
+</ol>
+</ol>
+</p>
+
+</body>
