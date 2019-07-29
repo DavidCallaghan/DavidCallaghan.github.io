@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.header {
+  background-color: #F1F1F1;
+  text-align: left;
+  padding: 20px;
+}
+
 body {
   margin: 0;
   font-family: Roboto;
@@ -15,7 +21,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ef1829;
+  background-color: #5b92e5;
   overflow-x: hidden;
 }
 
