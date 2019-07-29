@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<title>Hosting a webmap on Github</title>
+
+<head>
+<meta charset="utf-8">
+</head>
+
+<body>
+        
+<h1>
+QGIS to Leaflet to Github Pages
+</h1>
+
+<h3>
+Step One: QGIS
+</h3>
+
+<p>
+Build your map in QGIS. Get everything looking the way you want it to. Prepare your symbology, the names of your layers and make everything look as you would want it to look in your final product.
+</p>
+
+<ol style="list-style-type:none;">
+<li>
+Note: everything might have to be geoJSONs, but not sure
+</li>
+</ol>
+
+<p>
+Add the plugin “QGIS2Web” to your QGIS instance. Select "Make a map" in the plugin's dropdown menu. Fiddle around with the options. Press "Export". The folder structure and files that produce your webpage will be exported to the folder path you selected in the previous options.
+</p>
+
+<h3>
+Step Two: Github Pages
+</h3>
+
+<p>
+Go to <a href="https://pages.github.com/">https://pages.github.com/</a>, sign in to your Github account and follow the instructions to create a “Repository” (aka "Repo", aka the bit of Github where you are going to host your web map) on Github online. Download Github Desktop from the same page. Once Github Desktop has downloaded, return to your Github online account, navigate to the new Repo and add (aka "clone") it to your Github Desktop by clicking the button that says “Setup in desktop”. This will download a copy of that new folder onto your local machine.
+</p>
+
+
+<h3>
+Step Three: Your PC or Mac’s file explorer
+</h3>
+
+<p>
+Once the Repo folder is on your local machine, you can copy the complete folder structure and HTML file for the webmap into that new Repo folder. Make sure that you copy all the content from the QGIS2Web folder but not the folder itself.
+</p>
+
+
+<h3>
+Step Four: Github Desktop
+</h3>
+
+<p>Github Desktop should detect that you’ve made changes to the repository. Bottom left click “Commit” (you may need to write a comment in the box above the button). It’ll do some thinking, then take you to another page in the app that has a button that says “Push”, click that and wait till it does its stuff.
+
+<h3>
+Step Five: Access webmap online
+</h3>
+
+<p> Open your browser and navigate to https://your-github-account-name.github.io/filename-of-html-page-exported-from-qgis.html and you should see your map.
+</p>
+
+
+</body>
