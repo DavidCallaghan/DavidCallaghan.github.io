@@ -1,13 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<title>Hosting a webmap on Github</title>
 
 <head>
+<title>Hosting a webmap on Github</title>
 <meta charset="utf-8">
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #d3d3d3;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 110px;
+  padding-left: 20px;
+}
+</style>
+</head>
 <body>
-        
+
+<div class="sidenav">
+  <a href="https://davidcallaghan.github.io/">Home</a>
+  <a href="https://davidcallaghan.github.io/guides">Guides</a>
+  <a href="https://davidcallaghan.github.io/projects">Projects</a>
+</div>
+
+<div class="content">
+
 <h1>
 QGIS to Leaflet to Github Pages
 </h1>
@@ -52,7 +104,7 @@ Once the Repo folder is on your local machine, you can copy the complete folder 
 Step Four: Github Desktop
 </h3>
 
-<p>Github Desktop should detect that you’ve made changes to the repository. Bottom left click “Commit to master” (you may need to write a comment in the box above the button). It’ll do some thinking, then take you to another page in the app that has a button that says “Push”, click that and wait till it does its stuff.
+<p>Github Desktop should detect that you’ve made changes to the repository. Bottom left click “Commit” (you may need to write a comment in the box above the button). It’ll do some thinking, then take you to another page in the app that has a button that says “Push”, click that and wait till it does its stuff.
 
 <h3>
 Step Five: Access webmap online
@@ -61,5 +113,6 @@ Step Five: Access webmap online
 <p> Open your browser and navigate to https://your-github-account-name.github.io/filename-of-html-page-exported-from-qgis.html and you should see your map.
 </p>
 
+</div>
 
 </body>
